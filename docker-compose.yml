@@ -25,3 +25,51 @@ services:
       - /home/endurance/docker_containers/db/mongodb/db_data:/data/db:Z
     ports:
       - 27017:27017
+
+  resilio:
+    container_name: resilio_sync
+    image: resilio/sync:latest
+    restart: always
+    volumes:
+      - /home/endurance/docker_containers/resilio:/mnt/sync:Z
+      - /opt/plexmedia/pictures:/mnt/mounted_folders/plexmedia/pictures:Z
+    ports:
+      - 55555:55555
+      - 8888:8888
+
+  deluge:
+    image: lscr.io/linuxserver/deluge:latest
+    container_name: deluge
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - DELUGE_LOGLEVEL=error #optional
+    volumes:
+      - /home/endurance/docker_containers/deluge/config:/config:Z
+      - /home/endurance/docker_containers/deluge/downloads:/downloads:Z
+    ports:
+      - 8112:8112
+      - 6881:6881
+      - 6881:6881/udp
+    restart: unless-stopped
+
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    container_name: code-server
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - PASSWORD=Chunnu@97 #optional
+        #- HASHED_PASSWORD= #optional
+        #- SUDO_PASSWORD=password #optional
+        #- SUDO_PASSWORD_HASH= #optional
+        # - PROXY_DOMAIN=code-server.my.domain #optional
+      - DEFAULT_WORKSPACE=/config/workspace #optional
+    volumes:
+      - /home/endurance/docker_containers/code-server/config:/config:Z
+      - /home/endurance:/host:Z
+    ports:
+      - 8443:8443
+    restart: unless-stopped
