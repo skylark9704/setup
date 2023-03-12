@@ -73,3 +73,14 @@ services:
     ports:
       - 8443:8443
     restart: unless-stopped
+  
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - /home/endurance/docker_containers/home-assistant/config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/letsencrypt:/etc/letsencrypt
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
