@@ -1,8 +1,0 @@
-new_script:
-  alias: PC On
-  sequence:
-  - service: wake_on_lan.send_magic_packet
-    data:
-      mac: 2c:f0:5d:70:2c:b9
-  mode: single
-  icon: mdi:desktop-tower-monitor
