@@ -46,8 +46,8 @@ services:
       - TZ=Etc/UTC
       - DELUGE_LOGLEVEL=error #optional
     volumes:
-      - /home/endurance/docker_containers/deluge/config:/config:Z
-      - /home/endurance/sambashare:/downloads:Z
+      - /home/enterprise/docker_containers/deluge/config:/config:Z
+      - /home/enterprise/sambashares:/downloads:Z
     ports:
       - 8112:8112
       - 6881:6881
@@ -68,8 +68,8 @@ services:
         # - PROXY_DOMAIN=code-server.my.domain #optional
       - DEFAULT_WORKSPACE=/config/workspace #optional
     volumes:
-      - /home/endurance/docker_containers/code-server/config:/config:Z
-      - /home/endurance:/host:Z
+      - /home/enterprise/docker_containers/code-server/config:/config:Z
+      - /home/enterprise:/host:Z
     ports:
       - 8443:8443
     restart: unless-stopped
@@ -78,9 +78,10 @@ services:
     container_name: homeassistant
     image: "ghcr.io/home-assistant/home-assistant:stable"
     volumes:
-      - /home/endurance/docker_containers/home-assistant/config:/config
+      - /home/enterprise/docker_containers/home-assistant/config:/config
       - /etc/localtime:/etc/localtime:ro
       - /etc/letsencrypt:/etc/letsencrypt
+      - /run/dbus:/run/dbus:ro
     restart: unless-stopped
     privileged: true
     network_mode: host
@@ -97,17 +98,68 @@ services:
       - TZ=Asia/Kolkata
       - SERVERURL=skylark.cloud #optional
       - SERVERPORT=51820 #optional
-      - PEERS=5 #optional
+      - PEERS=10 #optional
       - PEERDNS=auto #optional
       - INTERNAL_SUBNET=10.13.13.0 #optional
       - ALLOWEDIPS=0.0.0.0/0 #optional
       - PERSISTENTKEEPALIVE_PEERS= #optional
       - LOG_CONFS=true #optional
     volumes:
-      - /home/endurance/docker_containers/wireguard/config:/config
+      - /home/enterprise/docker_containers/wireguard/config:/config
       # - /lib/modules:/lib/modules #optional
     ports:
       - 51820:51820/udp
     sysctls:
       - net.ipv4.conf.all.src_valid_mark=1
     restart: unless-stopped
+
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+    volumes:
+      - /home/enterprise/plex/appdata/config:/config
+      - /home/enterprise/sambashares/plex:/plexmedia
+      - /home/enterprise/sambashares/external/plex:/plexternal
+      - /home/enterprise/sambashares/external2/plex:/plexternal2
+    ports:
+      - 32400:32400
+    restart: unless-stopped
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    ports:
+      - 9443:9443
+    volumes:
+      - /home/enterprise/docker_containers/portainer:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+  
+  desktop:
+    image: lscr.io/linuxserver/webtop:ubuntu-xfce
+    container_name: webtop
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - SUBFOLDER=/ #optional
+      - TITLE=Webtop #optional
+      - PASSWORD=Chunnu@97
+    volumes:
+      - /path/to/data:/config
+      - /var/run/docker.sock:/var/run/docker.sock #optional
+      - /home/enterprise/projects:/projects
+    ports:
+      - 4000:3000
+      - 4001:3001
+    devices:
+      - /dev/dri:/dev/dri #optional
+    shm_size: "2gb" #optional
+    restart: unless-stopped
+
