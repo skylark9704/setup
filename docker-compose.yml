@@ -1,8 +1,8 @@
 version: '3.1'
 
 services:
-  db_postgres:
-    container_name: postgres
+  local_postgres:
+    container_name: local_postgres
     image: postgres
     restart: always
     environment:
@@ -11,11 +11,12 @@ services:
       PGDATA: /var/lib/postgresql/data/db_data/
     volumes:
       - /home/endurance/docker_containers/db/postgres:/var/lib/postgresql/data:Z
-    ports:
-      - 5432:5432
+    # ports:
+    #   - 5430:5432
+    network_mode: "host"
 
-  db_mongo:
-    container_name: mongo
+  local_mongo:
+    container_name: local
     image: mongo
     restart: always
     environment:
@@ -23,8 +24,9 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: mongopassword
     volumes:
       - /home/endurance/docker_containers/db/mongodb/db_data:/data/db:Z
-    ports:
-      - 27017:27017
+    # ports:
+    #   - 27017:27017
+    network_mode: "host"
 
   resilio:
     container_name: resilio_sync
@@ -123,7 +125,7 @@ services:
     ports:
       - 9443:9443
     volumes:
-      - /home/enterprise/docker_containers/portainer:/data
+      - /home/enterprise/docker_containers/portainer/data:/data
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
   
@@ -140,7 +142,7 @@ services:
       - TITLE=Webtop #optional
       - PASSWORD=Chunnu@97
     volumes:
-      - /path/to/data:/config
+      - /home/enterprise/docker_containers/desktop/config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
       - /home/enterprise/projects:/projects
     ports:
@@ -150,4 +152,40 @@ services:
       - /dev/dri:/dev/dri #optional
     shm_size: "2gb" #optional
     restart: unless-stopped
+
+  nextcloud:
+    image: lscr.io/linuxserver/nextcloud:latest
+    container_name: nextcloud
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - /home/enterprise/docker_containers/nextcloud:/config
+      - /home/enterprise/sambashares/nextcloud:/data
+    ports:
+      - 8900:443
+    restart: unless-stopped
+    networks:
+      - nw_nextcloud
+    depends_on:
+      - nextcloud_db
+
+  nextcloud_db:
+    container_name: nextcloud_db
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_USER: postgres
+      PGDATA: /var/lib/postgresql/data/db_data/
+    volumes:
+      - /home/endurance/docker_containers/nextclouddb/postgres:/var/lib/postgresql/data:Z
+    ports:
+      - 5423:5432
+    networks:
+      - nw_nextcloud
+networks:
+  nw_nextcloud: {}
+
 

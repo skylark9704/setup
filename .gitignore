@@ -6,3 +6,4 @@ deluge/downloads/
 deluge/config/
 home-assistant/config/
 code-server/config/
+portainer/*

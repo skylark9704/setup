@@ -1,0 +1,16 @@
+OC.L10N.register(
+    "oauth2",
+    {
+    "OAuth 2.0" : "OAuth 2.0",
+    "OAuth 2.0 clients" : "Veceros d'OAuth 2.0",
+    "Name" : "Nome",
+    "Secret key" : "Clave del secretu",
+    "Delete client" : "Desaniciar el veceru",
+    "Add client" : "Amestar el veceru",
+    "Add" : "Amestar",
+    "Delete" : "Desaniciar",
+    "Show client secret" : "Amosar el secretu del veceru",
+    "Hide client secret" : "Anubrir el secretu del veceru",
+    "Secret" : "Secretu"
+},
+"nplurals=2; plural=(n != 1);");

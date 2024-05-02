@@ -1,0 +1,27 @@
+#integration_homeassistant label {
+	clear: both;
+}
+
+#integration_homeassistant input,
+#integration_homeassistant textarea {
+	width: 100%;
+	max-width: 400px;
+}
+
+#integration_homeassistant textarea {
+	min-height: 120px;
+}
+
+#integration_homeassistant textarea#template_widget {
+	max-width: none;
+	min-height: 300px;
+}
+
+#integration_homeassistant li {
+	list-style: circle;
+	margin-left: 15px;
+}
+
+#integration_homeassistant .icon {
+	vertical-align: text-bottom;
+}

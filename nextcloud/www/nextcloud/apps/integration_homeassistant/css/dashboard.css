@@ -1,0 +1,4 @@
+.icon-hasswidget {
+	background-image: url('../img/logo-dark.svg');
+	filter: var(--background-invert-if-dark);
+}
