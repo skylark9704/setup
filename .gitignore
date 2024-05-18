@@ -7,3 +7,6 @@ deluge/config/
 home-assistant/config/
 code-server/config/
 portainer/*
+nextcloud/*
+plex/*
+desktop/*
