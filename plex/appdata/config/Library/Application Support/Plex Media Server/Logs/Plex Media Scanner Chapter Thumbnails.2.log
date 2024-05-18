@@ -1,0 +1,11 @@
+May 18, 2024 02:00:50.668 [139962101017344] INFO - Plex Media Scanner v1.40.1.8227-c0dd5a73e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 02:00:50.669 [139962101017344] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 02:00:50.669 [139962101017344] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 02:00:50.669 [139962101017344] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 7563 --log-file-suffix  Chapter Thumbnails
+May 18, 2024 02:00:50.669 [139962101517120] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 02:00:50.725 [139962101517120] DEBUG - Created chapter thumbnail for metadata item 7563, media item 8336 for chapter number 1:0 at "/config/Library/Application Support/Plex Media Server/Media/localhost/2/3e26da62c0d5d4f7b0686cc9d4fe6123107a183.bundle/Contents/Chapters/chapter1.jpg"
+May 18, 2024 02:00:50.725 [139962101517120] DEBUG - Created chapter thumbnail for metadata item 7563, media item 8336 for chapter number 2:134000 at "/config/Library/Application Support/Plex Media Server/Media/localhost/2/3e26da62c0d5d4f7b0686cc9d4fe6123107a183.bundle/Contents/Chapters/chapter2.jpg"
+May 18, 2024 02:00:50.725 [139962101517120] DEBUG - Created chapter thumbnail for metadata item 7563, media item 8336 for chapter number 3:224000 at "/config/Library/Application Support/Plex Media Server/Media/localhost/2/3e26da62c0d5d4f7b0686cc9d4fe6123107a183.bundle/Contents/Chapters/chapter3.jpg"
+May 18, 2024 02:00:50.725 [139962101517120] DEBUG - Created chapter thumbnail for metadata item 7563, media item 8336 for chapter number 4:1375000 at "/config/Library/Application Support/Plex Media Server/Media/localhost/2/3e26da62c0d5d4f7b0686cc9d4fe6123107a183.bundle/Contents/Chapters/chapter4.jpg"
+May 18, 2024 02:00:50.725 [139962101517120] DEBUG - Created chapter thumbnail for metadata item 7563, media item 8336 for chapter number 5:1465000 at "/config/Library/Application Support/Plex Media Server/Media/localhost/2/3e26da62c0d5d4f7b0686cc9d4fe6123107a183.bundle/Contents/Chapters/chapter5.jpg"
+May 18, 2024 02:00:50.725 [139962101517120] DEBUG - Generated new chapter thumbnails for Demons and Strategies.

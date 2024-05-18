@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf8'?>
+<combine class="TV_Show">
+  <sources>
+    <agent>com.plexapp.agents.localmedia</agent>
+    <agent>com.plexapp.agents.thetvdb</agent>
+    <agent>com.plexapp.agents.plexthememusic</agent>
+    <agent>com.plexapp.agents.fanarttv</agent>
+    <agent>com.plexapp.agents.opensubtitles</agent>
+    <agent>com.plexapp.agents.themoviedb</agent>
+  </sources>
+</combine>

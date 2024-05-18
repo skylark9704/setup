@@ -1,0 +1,79 @@
+May 18, 2024 02:00:32.852 [140346411428608] INFO - Plex Media Scanner v1.40.1.8227-c0dd5a73e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 02:00:32.852 [140346411428608] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 02:00:32.852 [140346411428608] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 02:00:32.852 [140346411428608] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 7767 --log-file-suffix  Deep Analysis
+May 18, 2024 02:00:32.852 [140346411928384] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 02:00:32.908 [140346411928384] DEBUG - [MI] Opening input file: "/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 06.mkv"
+May 18, 2024 02:00:32.908 [140346411928384] DEBUG - [FFMPEG] - Opening '/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 06.mkv' for reading
+May 18, 2024 02:00:32.908 [140346411928384] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 18, 2024 02:00:32.909 [140346411928384] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 18, 2024 02:00:32.909 [140346411928384] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6794
+May 18, 2024 02:00:32.909 [140346411928384] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6895
+May 18, 2024 02:00:32.909 [140346411928384] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6975
+May 18, 2024 02:00:32.909 [140346411928384] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9210
+May 18, 2024 02:00:32.909 [140346411928384] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 11565
+May 18, 2024 02:00:32.917 [140346411928384] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6799558
+May 18, 2024 02:00:32.917 [140346411928384] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 18, 2024 02:00:32.918 [140346411928384] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 18, 2024 02:00:32.918 [140346411928384] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 18, 2024 02:00:32.918 [140346411928384] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 18, 2024 02:00:32.918 [140346411928384] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+May 18, 2024 02:00:32.922 [140346411928384] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6799670 bytes read:6833940 seeks:2 nb_streams:20
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Decoding VPS
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Decoding SPS
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Decoding VUI
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Decoding PPS
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:32.923 [140346411928384] DEBUG - [FFMPEG] - Decoding SEI
+May 18, 2024 02:00:32.927 [140346411928384] DEBUG - [FFMPEG] - All info found
+May 18, 2024 02:00:32.929 [140346411928384] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 7015978 bytes read:7057200 seeks:2 frames:19
+May 18, 2024 02:00:32.961 [140346411928384] DEBUG - Deep Analysis: Read 10000 packets at 90.580000
+May 18, 2024 02:00:32.983 [140346411928384] DEBUG - Deep Analysis: Read 20000 packets at 181.092000
+May 18, 2024 02:00:33.014 [140346411928384] DEBUG - Deep Analysis: Read 30000 packets at 271.674000
+May 18, 2024 02:00:33.034 [140346411928384] DEBUG - Deep Analysis: Read 40000 packets at 362.415000
+May 18, 2024 02:00:33.089 [140346411928384] DEBUG - Deep Analysis: Read 50000 packets at 452.744000
+May 18, 2024 02:00:33.117 [140346411928384] DEBUG - Deep Analysis: Read 60000 packets at 543.601000
+May 18, 2024 02:00:33.147 [140346411928384] DEBUG - Deep Analysis: Read 70000 packets at 634.160000
+May 18, 2024 02:00:33.190 [140346411928384] DEBUG - Deep Analysis: Read 80000 packets at 724.717000
+May 18, 2024 02:00:33.218 [140346411928384] DEBUG - Deep Analysis: Read 90000 packets at 815.342000
+May 18, 2024 02:00:33.248 [140346411928384] DEBUG - Deep Analysis: Read 100000 packets at 905.901000
+May 18, 2024 02:00:33.279 [140346411928384] DEBUG - Deep Analysis: Read 110000 packets at 996.391000
+May 18, 2024 02:00:33.314 [140346411928384] DEBUG - Deep Analysis: Read 120000 packets at 1086.949000
+May 18, 2024 02:00:33.377 [140346411928384] DEBUG - Deep Analysis: Read 130000 packets at 1177.506000
+May 18, 2024 02:00:33.399 [140346411928384] DEBUG - Deep Analysis: Read 140000 packets at 1268.111000
+May 18, 2024 02:00:33.432 [140346411928384] DEBUG - Deep Analysis: Read 150000 packets at 1358.738000
+May 18, 2024 02:00:33.449 [140346411928384] DEBUG - Deep Analysis: Sorting packets
+May 18, 2024 02:00:33.454 [140346411928384] DEBUG - Deep Analysis: Performing file bitrate analysis
+May 18, 2024 02:00:33.470 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+May 18, 2024 02:00:33.474 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+May 18, 2024 02:00:33.476 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+May 18, 2024 02:00:33.478 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+May 18, 2024 02:00:33.478 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+May 18, 2024 02:00:33.478 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+May 18, 2024 02:00:33.478 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+May 18, 2024 02:00:33.478 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 12
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 13
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 14
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 15
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 16
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 17
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 18
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 19
+May 18, 2024 02:00:33.479 [140346411928384] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+May 18, 2024 02:00:33.481 [140346411928384] DEBUG - Deep Analysis: Saving bitrate analysis
+May 18, 2024 02:00:33.481 [140346411928384] DEBUG - Updating part with ID=8850 [/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 06.mkv]
+May 18, 2024 02:00:33.482 [140346411928384] DEBUG - [MI] Closing input file: "/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 06.mkv"
+May 18, 2024 02:00:33.483 [140346411928384] DEBUG - Updating media item 8493, size=335681451, metadata_item_id=7767
+May 18, 2024 02:00:33.483 [140346411928384] DEBUG - Updating part with ID=8850 [/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 06.mkv]
+May 18, 2024 02:00:33.483 [140346411928384] DEBUG - Updating media item 8627, size=335681451, metadata_item_id=7767
+May 18, 2024 02:00:33.483 [140346411928384] DEBUG - Updating part with ID=8984 [/plexternal/series/1vLyVsL6Hokhin_6Bme_DncS_Hi1tG_1i/[Ripcrabbyanime] Gods’ Game We Play Dual Audio/Kami wa Game ni Ueteiru - 06.mkv]

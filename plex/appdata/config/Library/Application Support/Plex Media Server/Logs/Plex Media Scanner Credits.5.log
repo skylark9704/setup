@@ -1,0 +1,35 @@
+May 18, 2024 06:15:54.694 [139947736247040] INFO - Plex Media Scanner v1.40.2.8395-c67dce28e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 06:15:54.694 [139947736247040] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 06:15:54.694 [139947736247040] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 06:15:54.694 [139947736247040] INFO - /usr/lib/plexmediaserver/Plex Media Scanner -C -f /plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv --log-file-suffix  Credits --creditsTempDataPath /tmp/PlexCreditsDetection-bcce8414-f742-4ee8-ac3f-0c10d9741171
+May 18, 2024 06:15:54.695 [139947736780544] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 06:15:54.772 [139947736780544] DEBUG - [ID -1] Media part analysis: /plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv
+May 18, 2024 06:15:54.772 [139947736780544] DEBUG - [MI] Opening input file: "/plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv"
+May 18, 2024 06:15:54.772 [139947736780544] DEBUG - [FFMPEG] - Opening '/plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv' for reading
+May 18, 2024 06:15:54.772 [139947736780544] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 18, 2024 06:15:54.773 [139947736780544] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 18, 2024 06:15:54.784 [139947736780544] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 18, 2024 06:15:54.784 [139947736780544] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 18, 2024 06:15:54.784 [139947736780544] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 18, 2024 06:15:54.789 [139947736780544] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6506641 bytes read:6538160 seeks:0 nb_streams:17
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Decoding VPS
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Decoding SPS
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Decoding VUI
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Decoding PPS
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:15:54.790 [139947736780544] DEBUG - [FFMPEG] - Decoding SEI
+May 18, 2024 06:15:54.794 [139947736780544] DEBUG - [FFMPEG] - All info found
+May 18, 2024 06:15:54.798 [139947736780544] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 7083965 bytes read:7111202 seeks:0 frames:4
+May 18, 2024 06:15:54.802 [139947736780544] DEBUG - [MI]  *  [mkv hevc/aac] Duration: 1420109ms, 1920x1080 (1.777778) 23.976fps, bitrate=1150kbps, audio channels=2, optimizedForStreaming=0 ("/plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv")
+May 18, 2024 06:15:54.802 [139947736780544] DEBUG - [MI] Chapters had generic titles, clearing.
+May 18, 2024 06:15:54.802 [139947736780544] DEBUG - [MI] Closing input file: "/plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv"
+May 18, 2024 06:15:54.803 [139947736780544] DEBUG - [JobRunner] Job running: FFMPEG_EXTERNAL_LIBS='/config/Library/Application\ Support/Plex\ Media\ Server/Codecs/ad47460-4673-linux-x86_64/' "/usr/lib/plexmediaserver/Plex Transcoder" -codec:v hevc -y -threads 4 -skip_frame noref -ss 1278 -i "/plexternal/series/1gWOSE6RPJU3wTOIOpNPN1LSdilgsvvYx/Unnamed Memory /Unnamed Memory - 02.mkv" -vf "[in]fps=0.5,scale=w=320:h=320:force_original_aspect_ratio=increase,showinfo[out]" -vsync passthrough -f image2 "thumb-%05d.jpeg"
+May 18, 2024 06:15:54.803 [139947736780544] DEBUG - [JobRunner] In directory: "/tmp/PlexCreditsDetection-bcce8414-f742-4ee8-ac3f-0c10d9741171"
+May 18, 2024 06:15:54.803 [139947736780544] DEBUG - [JobRunner] Jobs: Starting child process with pid 8272
+May 18, 2024 06:16:03.839 [139947736780544] ERROR - BufferingLineReader: failed to read line (error: -1)
+May 18, 2024 06:16:03.839 [139947736566528] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Transcoder' exit code for process 8272 is 0 (success)

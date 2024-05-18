@@ -1,0 +1,8 @@
+May 18, 2024 06:20:32.831 [140254636665600] INFO - Plex Media Scanner v1.40.2.8395-c67dce28e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 06:20:32.831 [140254636665600] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 06:20:32.831 [140254636665600] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 06:20:32.831 [140254636665600] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 7904
+May 18, 2024 06:20:32.831 [140254637190912] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 06:20:32.883 [140254637190912] DEBUG - Matcher: found 2 auxiliary files in "/plexternal/Movies" (single media: no)
+May 18, 2024 06:20:32.883 [140254637190912] DEBUG - Matcher: no sidecar subtitle files found for "/plexternal/Movies/Interstellar.2014.2160p.UHD.HDR.AV1.Opus.Multi6-dAV1nci.mkv"
+May 18, 2024 06:20:32.884 [140254637190912] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file

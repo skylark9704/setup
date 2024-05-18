@@ -1,0 +1,5 @@
+May 18, 2024 06:12:28.666 [140218442156856] INFO - Crash Uploader - Session Health - Status: abnormal StartTime: 1716012748 Duration: 0 UserId: vsushant97@gmail.com Version: 1.40.2.8395-c67dce28e
+May 18, 2024 06:12:28.666 [140218474735624] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+May 18, 2024 06:12:28.882 [140218441923384] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+May 18, 2024 06:12:28.882 [140218474735624] INFO - Successfully reported session health
+May 18, 2024 06:12:28.882 [140218474735624] INFO - Crash Uploader - Processing Complete.

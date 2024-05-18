@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf8'?>
+<combine class="TV_Show">
+  <sources>
+    <agent>com.plexapp.agents.themoviedb</agent>
+    <agent>com.plexapp.agents.thetvdb</agent>
+  </sources>
+</combine>

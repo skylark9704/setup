@@ -1,0 +1,44 @@
+May 18, 2024 06:13:04.588 [140022829030144] INFO - Plex Media Scanner v1.40.2.8395-c67dce28e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 06:13:04.589 [140022829030144] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 06:13:04.589 [140022829030144] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 06:13:04.589 [140022829030144] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 7902
+May 18, 2024 06:13:04.589 [140022829555456] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 06:13:04.656 [140022829555456] DEBUG - Analyzing media parts for item 7902 (Sunsteal Scramble): 8666
+May 18, 2024 06:13:04.656 [140022829555456] DEBUG - [ID 9023] Media part analysis: /plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 07.mkv
+May 18, 2024 06:13:04.657 [140022829555456] DEBUG - [MI] Opening input file: "/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 07.mkv"
+May 18, 2024 06:13:04.657 [140022829555456] DEBUG - [FFMPEG] - Opening '/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 07.mkv' for reading
+May 18, 2024 06:13:04.657 [140022829555456] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 18, 2024 06:13:04.657 [140022829555456] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 18, 2024 06:13:04.668 [140022829555456] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 18, 2024 06:13:04.668 [140022829555456] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 18, 2024 06:13:04.668 [140022829555456] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6506387 bytes read:6537906 seeks:0 nb_streams:17
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Decoding VPS
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Decoding SPS
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Decoding VUI
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:13:04.673 [140022829555456] DEBUG - [FFMPEG] - Decoding PPS
+May 18, 2024 06:13:04.674 [140022829555456] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 06:13:04.674 [140022829555456] DEBUG - [FFMPEG] - Decoding SEI
+May 18, 2024 06:13:04.678 [140022829555456] DEBUG - [FFMPEG] - All info found
+May 18, 2024 06:13:04.681 [140022829555456] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 6545031 bytes read:6570674 seeks:0 frames:4
+May 18, 2024 06:13:04.684 [140022829555456] DEBUG - [MI]  * a7c529d8898c44bba7a147f726bec2189c128810 [mkv hevc/aac] Duration: 1420016ms, 1920x1080 (1.777778) 23.976fps, bitrate=2431kbps, audio channels=2, optimizedForStreaming=0 ("/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 07.mkv")
+May 18, 2024 06:13:04.684 [140022829555456] DEBUG - [MI] Chapters had generic titles, clearing.
+May 18, 2024 06:13:04.685 [140022829555456] DEBUG - [MI] Closing input file: "/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 07.mkv"
+May 18, 2024 06:13:04.686 [140022829555456] DEBUG - Committing media stream changes for part 9023
+May 18, 2024 06:13:04.687 [140022829555456] DEBUG - Updating media item 8666, size=431638091, metadata_item_id=7902
+May 18, 2024 06:13:04.687 [140022829555456] DEBUG - Updating part with ID=9023 [/plexternal/series/17otGAxWmQZ4KhzY0fKaIZ2M0oqSEQdHX/Kami wa Game ni Ueteiru/Kami wa Game ni Ueteiru - 07.mkv]
+May 18, 2024 06:13:04.687 [140022808062720] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=7902&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 18, 2024 06:13:04.687 [140022807538432] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=7902&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 18, 2024 06:13:04.688 [140022808062720] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=7902&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 18, 2024 06:13:04.688 [140022807538432] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=3&metadataItemID=7902&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 18, 2024 06:13:04.689 [140022829555456] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 18, 2024 06:13:04.689 [140022829555456] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 18, 2024 06:13:04.689 [140022807538432] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 18, 2024 06:13:04.689 [140022829555456] DEBUG - Updating metadata item (save) (Sunsteal Scramble) with ID 7902
+May 18, 2024 06:13:04.690 [140022808062720] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=7573
+May 18, 2024 06:13:04.690 [140022807538432] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=7573 (reused)

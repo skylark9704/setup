@@ -1,0 +1,76 @@
+May 15, 2024 02:02:54.829 [140144075631360] INFO - Plex Media Scanner v1.40.1.8227-c0dd5a73e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 15, 2024 02:02:54.829 [140144075631360] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 15, 2024 02:02:54.829 [140144075631360] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 15, 2024 02:02:54.829 [140144075631360] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 16 --activity 998659be-1e25-489e-a36f-0e42ffc9e395
+May 15, 2024 02:02:54.830 [140144076131136] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 15, 2024 02:02:54.882 [140144076131136] DEBUG - [HCl#1] HTTP requesting PUT http://127.0.0.1:32400/activities/998659be-1e25-489e-a36f-0e42ffc9e395?percentComplete=0
+May 15, 2024 02:02:54.882 [140144055487232] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=16&sinceTime=1715737374
+May 15, 2024 02:02:54.882 [140144054733568] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/998659be-1e25-489e-a36f-0e42ffc9e395?percentComplete=0
+May 15, 2024 02:02:54.882 [140144054733568] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=16&sinceTime=1715737374
+May 15, 2024 02:02:54.882 [140144076131136] DEBUG - Scanning JAV using xn(Plex Video Files Scanner) with 39 current media items and 1 section locations in the database.
+May 15, 2024 02:02:54.921 [140144076131136] DEBUG - Performing a scan with 'Plex Video Files Scanner' (language: xn virtual: 0).
+May 15, 2024 02:02:54.921 [140144076131136] DEBUG -   * Scanning /plexternal2/18+/JAV
+May 15, 2024 02:02:54.921 [140144076131136] DEBUG -   * Marking media not available in /plexternal2/18+/JAV
+May 15, 2024 02:02:54.922 [140144076131136] DEBUG -   * Taking 39 items out of the map (which has 39 items) for being unavailable.
+May 15, 2024 02:02:54.922 [140144076131136] DEBUG -   * Taking 27 directories out of the map (which has 27 dirs) for being unavailable.
+May 15, 2024 02:02:54.922 [140144076131136] DEBUG -     * Taking directory '' (944) out of map.
+May 15, 2024 02:02:54.922 [140144076131136] DEBUG -     * Taking directory 'ABW-087' (945) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'ABW-311' (946) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'ATID-566' (947) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'CAWD-542' (948) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'FC2-PPV-3655389' (949) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'HMN-392' (950) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'IPX-834' (951) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'IPX-953' (952) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'JUL-969-C_X1080X' (953) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'LULU-220' (954) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'MIAA-968-C_GG5' (955) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SAME-027' (956) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SPRD-1524' (957) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-158' (958) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-402-C_60FPS_X1080X' (959) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-584' (960) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-586' (961) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-777' (962) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-834' (963) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-858' (964) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-926' (965) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'SSIS-950' (966) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'STARS-293' (967) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory 'ZEUSFB-019 Ayaka Kasuga 春日彩夏 [FHD][HEVC]' (968) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory '[JAV] [Uncesored] FC2 PPV 555173-559226' (969) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking directory '[MD]SSIS-982-C_GG5' (970) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG -     * Taking parent directory '' (944) out of map.
+May 15, 2024 02:02:54.923 [140144076131136] DEBUG - [HCl#3] HTTP requesting PUT http://127.0.0.1:32400/activities/998659be-1e25-489e-a36f-0e42ffc9e395?percentComplete=99.000000
+May 15, 2024 02:02:54.924 [140144054733568] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/998659be-1e25-489e-a36f-0e42ffc9e395?percentComplete=99.000000 (reused)
+May 15, 2024 02:02:54.924 [140144076131136] DEBUG - Removing 0 media items that were left.
+May 15, 2024 02:02:54.924 [140144076131136] DEBUG - Removing 0 directories that were left.
+May 15, 2024 02:02:54.924 [140144076131136] DEBUG - [HCl#4] HTTP requesting PUT http://127.0.0.1:32400/activities/998659be-1e25-489e-a36f-0e42ffc9e395?percentComplete=100
+May 15, 2024 02:02:54.925 [140144054733568] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/998659be-1e25-489e-a36f-0e42ffc9e395?percentComplete=100 (reused)
+May 15, 2024 02:02:54.925 [140144076131136] DEBUG - Refreshing section 16 of type: 1
+May 15, 2024 02:02:54.925 [140144053177088] DEBUG - Refreshing 0 IDs.

@@ -1,0 +1,94 @@
+May 18, 2024 02:00:29.997 [140223146044160] INFO - Plex Media Scanner v1.40.1.8227-c0dd5a73e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 02:00:29.997 [140223146044160] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 02:00:29.997 [140223146044160] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 02:00:29.997 [140223146044160] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 7623 --log-file-suffix  Deep Analysis
+May 18, 2024 02:00:29.997 [140223146543936] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [MI] Opening input file: "/plexternal/series/1ucraurejSAFhXWdXuLUcm8ALTZ95SZi2/Tensei shitara Slime Datta Ken S03/[Kayoanime]Tensei shitara Slime Datta Ken S03E02.mkv"
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Opening '/plexternal/series/1ucraurejSAFhXWdXuLUcm8ALTZ95SZi2/Tensei shitara Slime Datta Ken S03/[Kayoanime]Tensei shitara Slime Datta Ken S03E02.mkv' for reading
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6795
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6896
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6976
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 9743
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 21304
+May 18, 2024 02:00:30.054 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 33256
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8956923
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8956972
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8957021
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8957070
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8957120
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+May 18, 2024 02:00:30.058 [140223146543936] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8957232 bytes read:8983441 seeks:2 nb_streams:30
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Decoding VPS
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Decoding SPS
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Main 10 profile bitstream
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Decoding VUI
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Decoding PPS
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+May 18, 2024 02:00:30.064 [140223146543936] DEBUG - [FFMPEG] - Decoding SEI
+May 18, 2024 02:00:30.069 [140223146543936] DEBUG - [FFMPEG] - All info found
+May 18, 2024 02:00:30.073 [140223146543936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 9041836 bytes read:9081745 seeks:2 frames:51
+May 18, 2024 02:00:30.095 [140223146543936] DEBUG - Deep Analysis: Read 10000 packets at 90.302000
+May 18, 2024 02:00:30.109 [140223146543936] DEBUG - Deep Analysis: Read 20000 packets at 180.489000
+May 18, 2024 02:00:30.139 [140223146543936] DEBUG - Deep Analysis: Read 30000 packets at 270.687000
+May 18, 2024 02:00:30.188 [140223146543936] DEBUG - Deep Analysis: Read 40000 packets at 361.310000
+May 18, 2024 02:00:30.216 [140223146543936] DEBUG - Deep Analysis: Read 50000 packets at 451.905000
+May 18, 2024 02:00:30.234 [140223146543936] DEBUG - Deep Analysis: Read 60000 packets at 542.439000
+May 18, 2024 02:00:30.260 [140223146543936] DEBUG - Deep Analysis: Read 70000 packets at 632.835000
+May 18, 2024 02:00:30.273 [140223146543936] DEBUG - Deep Analysis: Read 80000 packets at 723.137000
+May 18, 2024 02:00:30.285 [140223146543936] DEBUG - Deep Analysis: Read 90000 packets at 813.372000
+May 18, 2024 02:00:30.300 [140223146543936] DEBUG - Deep Analysis: Read 100000 packets at 903.789000
+May 18, 2024 02:00:30.319 [140223146543936] DEBUG - Deep Analysis: Read 110000 packets at 994.115000
+May 18, 2024 02:00:30.331 [140223146543936] DEBUG - Deep Analysis: Read 120000 packets at 1084.418000
+May 18, 2024 02:00:30.344 [140223146543936] DEBUG - Deep Analysis: Read 130000 packets at 1174.789000
+May 18, 2024 02:00:30.356 [140223146543936] DEBUG - Deep Analysis: Read 140000 packets at 1265.069000
+May 18, 2024 02:00:30.369 [140223146543936] DEBUG - Deep Analysis: Read 150000 packets at 1355.145000
+May 18, 2024 02:00:30.402 [140223146543936] DEBUG - Deep Analysis: Read 160000 packets at 1446.069000
+May 18, 2024 02:00:30.419 [140223146543936] DEBUG - Deep Analysis: Sorting packets
+May 18, 2024 02:00:30.424 [140223146543936] DEBUG - Deep Analysis: Performing file bitrate analysis
+May 18, 2024 02:00:30.440 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+May 18, 2024 02:00:30.444 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+May 18, 2024 02:00:30.446 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+May 18, 2024 02:00:30.448 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 12
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 13
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 14
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 15
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 16
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 17
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 18
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 19
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 20
+May 18, 2024 02:00:30.449 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 21
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 22
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 23
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 24
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 25
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 26
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 27
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 28
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 29
+May 18, 2024 02:00:30.450 [140223146543936] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+May 18, 2024 02:00:30.451 [140223146543936] DEBUG - Deep Analysis: Saving bitrate analysis
+May 18, 2024 02:00:30.451 [140223146543936] DEBUG - Updating part with ID=8717 [/plexternal/series/1ucraurejSAFhXWdXuLUcm8ALTZ95SZi2/Tensei shitara Slime Datta Ken S03/[Kayoanime]Tensei shitara Slime Datta Ken S03E02.mkv]
+May 18, 2024 02:00:30.452 [140223146543936] DEBUG - [MI] Closing input file: "/plexternal/series/1ucraurejSAFhXWdXuLUcm8ALTZ95SZi2/Tensei shitara Slime Datta Ken S03/[Kayoanime]Tensei shitara Slime Datta Ken S03E02.mkv"
+May 18, 2024 02:00:30.453 [140223146543936] DEBUG - Updating media item 8364, size=211038721, metadata_item_id=7623
+May 18, 2024 02:00:30.453 [140223146543936] DEBUG - Updating part with ID=8717 [/plexternal/series/1ucraurejSAFhXWdXuLUcm8ALTZ95SZi2/Tensei shitara Slime Datta Ken S03/[Kayoanime]Tensei shitara Slime Datta Ken S03E02.mkv]

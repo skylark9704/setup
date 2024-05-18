@@ -1,0 +1,4 @@
+May 18, 2024 06:12:35.965 [140186305043256] INFO - Crash Uploader - Platform: Linux ServerUUID: 68b23b030bbb796fbd73745b1f01472b6dda0f0b UserId: vsushant97@gmail.com Version: 1.40.2.8395-c67dce28e
+May 18, 2024 06:12:35.965 [140186305043256] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.40.2.8395-c67dce28e
+May 18, 2024 06:12:35.965 [140186305043256] INFO - Post-processed minidump directory: /tmp
+May 18, 2024 06:12:35.965 [140186337622024] INFO - Crash Uploader - Processing Complete.

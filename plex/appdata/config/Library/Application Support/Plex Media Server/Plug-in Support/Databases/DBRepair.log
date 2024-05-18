@@ -1,0 +1,21 @@
+2024-05-18 06.11.05 - ============================================================
+2024-05-18 06.11.05 - Session start: Host is Docker
+2024-05-18 06.11.12 - Auto    - START
+2024-05-18 06.11.12 - Check   - Check com.plexapp.plugins.library.db - FAIL (DBRepair.log com.plexapp.plugins.library.blobs.db com.plexapp.plugins.library.blobs.db-2024-05-08 com.plexapp.plugins.library.blobs.db-2024-05-11 com.plexapp.plugins.library.blobs.db-2024-05-14 com.plexapp.plugins.library.blobs.db-2024-05-17 com.plexapp.plugins.library.blobs.db-shm com.plexapp.plugins.library.blobs.db-wal com.plexapp.plugins.library.db com.plexapp.plugins.library.db-2024-05-08 com.plexapp.plugins.library.db-2024-05-11 com.plexapp.plugins.library.db-2024-05-14 com.plexapp.plugins.library.db-2024-05-17 dbtmp in database main DBRepair.log com.plexapp.plugins.library.blobs.db com.plexapp.plugins.library.blobs.db-2024-05-08 com.plexapp.plugins.library.blobs.db-2024-05-11 com.plexapp.plugins.library.blobs.db-2024-05-14 com.plexapp.plugins.library.blobs.db-2024-05-17 com.plexapp.plugins.library.blobs.db-shm com.plexapp.plugins.library.blobs.db-wal com.plexapp.plugins.library.db com.plexapp.plugins.library.db-2024-05-08 com.plexapp.plugins.library.db-2024-05-11 com.plexapp.plugins.library.db-2024-05-14 com.plexapp.plugins.library.db-2024-05-17 dbtmp On tree page 18433 cell 85: Rowid 52617 out of order)
+2024-05-18 06.11.12 - Check   - Check com.plexapp.plugins.library.blobs.db - PASS
+2024-05-18 06.11.12 - Check   - FAIL
+2024-05-18 06.11.18 - Repair  - Export databases - PASS
+2024-05-18 06.11.19 - Repair  - Cannot import main database from './dbtmp/library.plexapp.sql-2024-05-18_06.11.12' - FAIL (1)
+2024-05-18 06.11.19 - Repair  - FAIL
+2024-05-18 06.11.19 - Auto    - FAIL
+2024-05-18 06.12.09 - Repair  - Export databases - PASS
+2024-05-18 06.12.09 - Repair  - Cannot import main database from './dbtmp/library.plexapp.sql-2024-05-18_06.12.03' - FAIL (1)
+2024-05-18 06.12.28 - Replace - Check com.plexapp.plugins.library.db - FAIL (DBRepair.log com.plexapp.plugins.library.blobs.db com.plexapp.plugins.library.blobs.db-2024-05-08 com.plexapp.plugins.library.blobs.db-2024-05-11 com.plexapp.plugins.library.blobs.db-2024-05-14 com.plexapp.plugins.library.blobs.db-2024-05-17 com.plexapp.plugins.library.db com.plexapp.plugins.library.db-2024-05-08 com.plexapp.plugins.library.db-2024-05-11 com.plexapp.plugins.library.db-2024-05-14 com.plexapp.plugins.library.db-2024-05-17 dbtmp in database main DBRepair.log com.plexapp.plugins.library.blobs.db com.plexapp.plugins.library.blobs.db-2024-05-08 com.plexapp.plugins.library.blobs.db-2024-05-11 com.plexapp.plugins.library.blobs.db-2024-05-14 com.plexapp.plugins.library.blobs.db-2024-05-17 com.plexapp.plugins.library.db com.plexapp.plugins.library.db-2024-05-08 com.plexapp.plugins.library.db-2024-05-11 com.plexapp.plugins.library.db-2024-05-14 com.plexapp.plugins.library.db-2024-05-17 dbtmp On tree page 18433 cell 85: Rowid 52617 out of order)
+2024-05-18 06.12.28 - Replace - Check com.plexapp.plugins.library.blobs.db - PASS
+2024-05-18 06.12.33 - Replace - Move Files - PASS
+2024-05-18 06.12.33 - Replace - Copy com.plexapp.plugins.library.db-2024-05-17 - PASS
+2024-05-18 06.12.33 - Replace - Copy com.plexapp.plugins.library.blobs.db-2024-05-17 - PASS
+2024-05-18 06.12.33 - Replace - Verify databases - PASS
+2024-05-18 06.21.24 - Exit    - Delete temp files.
+2024-05-18 06.21.24 - Session end. Sat May 18 06:21:24 AM UTC 2024
+2024-05-18 06.21.24 - ============================================================

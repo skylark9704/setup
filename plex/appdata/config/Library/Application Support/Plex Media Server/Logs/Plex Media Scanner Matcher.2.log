@@ -1,0 +1,13 @@
+May 18, 2024 06:20:32.555 [140429244431104] INFO - Plex Media Scanner v1.40.2.8395-c67dce28e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 18, 2024 06:20:32.555 [140429244431104] INFO - Linux version: 5.19.5-051905-generic, language: en-US
+May 18, 2024 06:20:32.555 [140429244431104] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+May 18, 2024 06:20:32.555 [140429244431104] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --files /plexternal/Movies/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE[TGx]/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE.mkv
+May 18, 2024 06:20:32.556 [140429244956416] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 18, 2024 06:20:32.613 [140429244956416] DEBUG - Matcher: found 2 auxiliary files in "/plexternal/Movies/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE[TGx]" (single media: yes)
+May 18, 2024 06:20:32.613 [140429244956416] DEBUG - Scanner: found local sidecar subtitle "/plexternal/Movies/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt"
+May 18, 2024 06:20:32.613 [140429244956416] DEBUG - Scanner: found local sidecar subtitle "/plexternal/Movies/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE[TGx]/NEW upcoming releases by Xclusive.txt"
+May 18, 2024 06:20:32.616 [140429244956416] DEBUG - [FFMPEG] - Opening '/plexternal/Movies/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt' for reading
+May 18, 2024 06:20:32.616 [140429244956416] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 18, 2024 06:20:32.616 [140429244956416] DEBUG - [FFMPEG] - Format tty probed with size=2048 and score=99
+May 18, 2024 06:20:32.617 [140429244956416] DEBUG - [FFMPEG] - Opening '/plexternal/Movies/The.Expendables.4.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-ST4LLONE[TGx]/NEW upcoming releases by Xclusive.txt' for reading
+May 18, 2024 06:20:32.617 [140429244956416] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'

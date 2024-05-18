@@ -1,0 +1,19 @@
+<SessionReport version="2" startTime="0" startTimestamp="May 18, 2024 06:15:54.695" transcode="fac250a0-45de-42e8-9039-7d58c55085b0">
+<User id="0" />
+<Player address="0.0.0.0" remotePublicAddress="0.0.0.0" local="0" relayed="0" secure="0" userID="0" />
+<Variants>
+<Variant id="509c8389-896a-4b98-9f54-7ddc41bd2028" context="static" sourceVideoCodec="hevc" sourceAudioCodec="aac" videoDecision="ignore" audioDecision="transcode" subtitleDecision="burn" protocol="http" container="flac" audioCodec="flac" audioChannels="2" transcodeHwRequested="1" transcodeHwFullPipeline="0">
+<Media audioProfile="lc" id="8637" videoProfile="main 10" audioChannels="2" audioCodec="flac" container="flac" duration="1256223" selected="1">
+<Part audioProfile="lc" id="8994" videoProfile="main 10" container="flac" duration="1256223" decision="transcode" selected="1">
+<Stream bitDepth="10" bitrate="2147483647" chromaLocation="left" chromaSubsampling="4:2:0" codec="hevc" codedHeight="1080" codedWidth="1920" colorPrimaries="bt709" colorRange="tv" colorSpace="bt709" colorTrc="bt709" default="1" displayTitle="1080p (HEVC Main 10)" extendedDisplayTitle="1080p (HEVC Main 10)" frameRate="23.976" height="1080" id="19368" level="150" profile="main 10" refFrames="1" scanType="progressive" streamType="1" width="1920" decision="ignore" location="direct" />
+<Stream bitrate="2147483647" bitrateMode="cbr" channels="2" codec="flac" default="1" displayTitle="&#26085;&#26412;&#35486; (AAC Stereo)" extendedDisplayTitle="&#26085;&#26412;&#35486; (AAC Stereo)" id="19369" language="&#26085;&#26412;&#35486;" languageCode="jpn" languageTag="ja" selected="1" streamType="2" decision="transcode" location="direct" />
+<Stream burn="1" codec="ass" default="1" displayTitle="English (ASS)" extendedDisplayTitle="English subs (ASS)" id="19370" language="English" languageCode="eng" languageTag="en" selected="1" streamType="3" title="English subs" decision="burn" location="direct" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList />
+<PlaybackReports />
+<StateReports />
+<StateReports />
+</SessionReport>
