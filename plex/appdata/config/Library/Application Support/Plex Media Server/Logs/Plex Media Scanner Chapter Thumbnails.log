@@ -1,5 +1,0 @@
-May 18, 2024 02:00:50.808 [139984503954176] INFO - Plex Media Scanner v1.40.1.8227-c0dd5a73e - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-May 18, 2024 02:00:50.808 [139984503954176] INFO - Linux version: 5.19.5-051905-generic, language: en-US
-May 18, 2024 02:00:50.808 [139984503954176] INFO - Processor: 8-core 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
-May 18, 2024 02:00:50.808 [139984503954176] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 2053 --log-file-suffix  Chapter Thumbnails
-May 18, 2024 02:00:50.808 [139984504453952] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
