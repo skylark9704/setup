@@ -1,5 +1,3 @@
-version: '3.1'
-
 services:
   local_postgres:
     container_name: local_postgres
@@ -28,17 +26,6 @@ services:
     #   - 27017:27017
     network_mode: "host"
 
-  resilio:
-    container_name: resilio_sync
-    image: resilio/sync:latest
-    restart: always
-    volumes:
-      - /home/endurance/docker_containers/resilio:/mnt/sync:Z
-      - /opt/plexmedia/pictures:/mnt/mounted_folders/plexmedia/pictures:Z
-    ports:
-      - 55555:55555
-      - 8888:8888
-
   deluge:
     image: lscr.io/linuxserver/deluge:latest
     container_name: deluge
@@ -49,7 +36,7 @@ services:
       - DELUGE_LOGLEVEL=error #optional
     volumes:
       - /home/enterprise/docker_containers/deluge/config:/config:Z
-      - /home/enterprise/sambashares:/downloads:Z
+      - /home/enterprise/sambashares/downloads:/downloads:Z
     ports:
       - 8112:8112
       - 6881:6881
@@ -112,10 +99,8 @@ services:
       - PGID=1000
       - VERSION=docker
     volumes:
-      - /home/enterprise/plex/appdata/config:/config
-      - /home/enterprise/sambashares/plex:/plexmedia
-      - /home/enterprise/sambashares/external/plex:/plexternal
-      - /home/enterprise/sambashares/external2/plex:/plexternal2
+      - /home/enterprise/docker_containers/plex/appdata/config:/config
+      - /home/enterprise/sambashares/drives/sabrent/plex:/plexternal
     ports:
       - 32400:32400
     restart: unless-stopped
@@ -124,6 +109,7 @@ services:
     image: portainer/portainer-ce:latest
     ports:
       - 9443:9443
+      - 9444:9000
     volumes:
       - /home/enterprise/docker_containers/portainer/data:/data
       - /var/run/docker.sock:/var/run/docker.sock
@@ -145,6 +131,7 @@ services:
       - /home/enterprise/docker_containers/desktop/config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
       - /home/enterprise/projects:/projects
+      - /home/enterprise/sambashares:/storage
     ports:
       - 4000:3000
       - 4001:3001
@@ -153,38 +140,15 @@ services:
     shm_size: "2gb" #optional
     restart: unless-stopped
 
-  nextcloud:
-    image: lscr.io/linuxserver/nextcloud:latest
-    container_name: nextcloud
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Etc/UTC
-    volumes:
-      - /home/enterprise/docker_containers/nextcloud:/config
-      - /home/enterprise/sambashares/nextcloud:/data
+  registry:
+    container_name: registry
+    image: registry:2
     ports:
-      - 8900:443
+      - 5000:5000
     restart: unless-stopped
-    networks:
-      - nw_nextcloud
-    depends_on:
-      - nextcloud_db
 
-  nextcloud_db:
-    container_name: nextcloud_db
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: postgrespassword
-      POSTGRES_USER: postgres
-      PGDATA: /var/lib/postgresql/data/db_data/
-    volumes:
-      - /home/endurance/docker_containers/nextclouddb/postgres:/var/lib/postgresql/data:Z
-    ports:
-      - 5423:5432
-    networks:
-      - nw_nextcloud
+volumes:
+  test_postgres: {}
 networks:
   nw_nextcloud: {}
 
